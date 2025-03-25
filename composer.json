@@ -1,0 +1,12 @@
+{
+    "name": "mc/mc",
+    "require": {
+        "php": ">=7.0",
+        "obregonco/backblaze-b2": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "settings\\": "settings/"
+        }
+    }
+}
