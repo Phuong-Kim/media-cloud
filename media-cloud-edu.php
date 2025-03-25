@@ -15,7 +15,7 @@ if (!file_exists($dir_MC_data)) {
 }
 
 define('MC_DATA', $dir_MC_data . '/');
-define('API_URL', 'https://api2.toidayhoc.com/');
+
 define('MC_FILE', '/wp-content/plugins/media-cloud-edu/');
 define('MC_PATH', plugin_dir_path(__FILE__));
 define('MC_CHANGE', str_replace('\\', '/', plugin_dir_path(__FILE__)));
